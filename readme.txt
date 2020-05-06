@@ -20,3 +20,8 @@ git reset Head^^ 				# 往上前两个版本
 git reset Head~100				# 往上一百个版本
 
 cat file.txt					# 查看该文件的内容
+
+git reflog 						#查看历史命令，方便自己查看返回到那个版本的
+
+
+Git has a mutable index called stage.
