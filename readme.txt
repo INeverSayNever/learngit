@@ -25,3 +25,4 @@ git reflog 						#查看历史命令，方便自己查看返回到那个版本�
 
 
 Git has a mutable index called stage.
+Git tracks changes of files.
