@@ -32,4 +32,4 @@ git checkout -- file.txt		#丢弃掉工作区的修改，如果没有加入暂�
 
 Git has a mutable index called stage.
 Git tracks change.
-
+My stupid boss still perfers SVN.
