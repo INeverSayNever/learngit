@@ -23,7 +23,9 @@ cat file.txt					# 查看该文件的内容
 
 git reflog 						#查看历史命令，方便自己查看返回到那个版本的
 
+ +ZZ 						# 退出git中的vim编辑器
+
 
 Git has a mutable index called stage.
-Git tracks change of files.
+Git tracks change.
 
