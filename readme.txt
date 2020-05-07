@@ -28,8 +28,15 @@ git reflog 						#查看历史命令，方便自己查看返回到那个版本�
 git restore --staged file.txt	#将加入到暂存区的文件撤回
 git checkout -- file.txt		#丢弃掉工作区的修改，如果没有加入暂存区，则回到和版本库一样的状态，如果加入到暂存区，则回到和add中的文件一样的状态。
 
+git rm file.txt						#删除文件管理库中的文件,在没有使用git commit 之前可以通过 git checkout -- file从暂存区撤回，
+
+
+git remote add origin git@github.com:INeverSayNever/learngit.git  # 远程连接GitHub库
+
+git push -u origin master 			#第一次推送本地文件时
+git push origin master				#将本地库上传到github
 
 
 Git has a mutable index called stage.
 Git tracks change.
-My stupid boss still perfers SVN.
+
