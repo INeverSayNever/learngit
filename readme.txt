@@ -23,7 +23,7 @@ cat file.txt					# 查看该文件的内容
 
 git reflog 						#查看历史命令，方便自己查看返回到那个版本的
 
- +ZZ 						# 退出git中的vim编辑器
+ESC +ZZ 						# 退出git中的vim编辑器
 
 git restore --staged file.txt	#将加入到暂存区的文件撤回
 git checkout -- file.txt		#丢弃掉工作区的修改，如果没有加入暂存区，则回到和版本库一样的状态，如果加入到暂存区，则回到和add中的文件一样的状态。
